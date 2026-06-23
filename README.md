@@ -6,14 +6,14 @@
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 This project is a fully functional, multi-page responsive website built as a personal academic portfolio and student management platform. It serves to showcase academic achievements, personal projects, and technical skills, while also providing an interactive academic planner to manage coursework and daily tasks. 
 
 The site was designed adhering to modern web design principles and demonstrates core competencies in HTML5, CSS3, and Vanilla JavaScript.
 
 ---
 
-## ✨ Features & Pages
+## Features & Pages
 
 *   **Homepage:** A welcoming landing page featuring a professional layout, personal photograph, brief biography, and clear navigation to other sections of the site.
 *   **About Me:** A detailed profile outlining educational background, career aspirations, technical skills, and personal hobbies/interests.
@@ -26,7 +26,7 @@ The site was designed adhering to modern web design principles and demonstrates 
 
 ---
 
-## 🛠️ Technologies & Technical Highlights
+## Technologies & Technical Highlights
 
 ### HTML5
 *   **Semantic Structure:** Built using semantic HTML tags (`<header>`, `<nav>`, `<section>`, `<footer>`, etc.) for better accessibility and SEO.
@@ -46,7 +46,7 @@ The site was designed adhering to modern web design principles and demonstrates 
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 To run this project locally:
 
