@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Planner - Muhammad Abubakar</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container nav-container">
+      <div class="logo">MA</div>
+      <button class="mobile-menu-btn">☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="academic-planner.html" class="active">Academic Planner</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="project-detail-header">
+      <div class="project-detail-grid">
+        <div class="project-info">
+          <h1>Academic Planner App</h1>
+          <p>This interactive Academic Planner allows you to manage your academic tasks efficiently. Use the interface below to add new assignments, mark them as completed when done, and delete them if necessary. Built dynamically with JavaScript arrays, functions, and DOM manipulation.</p>
+          
+          <div class="project-meta">
+            <div class="meta-item">
+              <strong>Role</strong>
+              <span>Lead Full-Stack ML Engineer</span>
+            </div>
+            <div class="meta-item">
+              <strong>Timeline</strong>
+              <span>8 Months</span>
+            </div>
+            <div class="meta-item">
+              <strong>Technologies</strong>
+              <span>HTML5, CSS3, JavaScript (DOM & Arrays), ML APIs</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="ui-mockup">
+          <div class="mockup-window">
+            <div class="mockup-header">
+              <div class="mockup-dot"></div>
+              <div class="mockup-dot"></div>
+              <div class="mockup-dot"></div>
+            </div>
+            <div class="mockup-body planner-app">
+              <h3 style="margin-bottom: 1.5rem;">My Academic Planner</h3>
+              <div class="planner-input-group" style="display: flex; gap: 0.5rem; margin-bottom: 2rem;">
+                <input type="text" id="taskInput" placeholder="Enter a new task..." class="mockup-input">
+                <button id="addTaskBtn" class="btn btn-primary" style="padding: 0.75rem 1.5rem;">Add</button>
+              </div>
+              <ul id="taskList" class="mockup-checklist" style="list-style: none; padding: 0; margin: 0;">
+                <!-- Tasks will be injected here by script.js -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-gallery">
+      <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Office Space">
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div class="logo">MA</div>
+      <div class="social-links">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Twitter</a>
+      </div>
+      <p>&copy; 2026 Muhammad Abubakar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
