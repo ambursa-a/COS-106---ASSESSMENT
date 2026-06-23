@@ -2,7 +2,7 @@
 
 **Course:** COS 106 – Introduction to Web Technologies (MIVA Open University)  
 **Author:** Muhammad Abubakar / 301861220  
-**Live Demo:** [Insert Link to Hosted Website]  
+**Live Demo:** https://muhammad-chi.vercel.app
 
 ---
 
